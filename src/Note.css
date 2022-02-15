@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Candal&family=Poppins:ital,wght@0,500;0,600;0,700;1,300&family=Roboto:wght@300;400&display=swap");
+
+.note_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100% !important;
+  height: 700px;
+  background-color: rgb(67, 170, 253);
+}
+.Notes_Icons {
+  font-size: xx-large !important;
+  margin-top: 5px;
+  margin-left: -10px;
+  color: rgb(71, 171, 252);
+}
+
+.left {
+  margin-left: 40px;
+}
+.left > .title {
+  font-size: 70px;
+  font-family: "Candal";
+  font-weight: 600;
+  color: #ffffff;
+}
+.right {
+  width: 50%;
+}
+.box__ {
+  width: 700px;
+  height: fit-content;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-right: -40px;
+  border-radius: 10px;
+}
+.title1 {
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.titlee_ {
+  color: rgb(71, 171, 252);
+  font-size: 1rem;
+  font-family: "Poppins";
+  padding-left: 35px;
+  padding-right: 20px;
+  margin-top: -32px;
+}
+.descreption {
+  color: black;
+  font-size: 0.9rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+@media (max-width: 980px) {
+  .note_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: fit-content;
+  }
+  .right {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+  }
+  .box__ {
+    width: 80% !important;
+    /* margin-top: 50px; */
+    margin: auto !important;
+    position: relative;
+    left: 0px;
+    margin-bottom: 30px !important;
+    margin-top: 35px !important;
+  }
+  .left {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .left > .title {
+    font-size: 2.5rem;
+    margin: auto;
+  }
+}
+
+@media (max-width: 580px) {
+  .right {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;
+  }
+  .left > .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 440px) {
+   
+  .left > .title {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Candal&family=Poppins:ital,wght@0,500;0,600;0,700;1,300&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,300&family=Roboto:wght@300;400&display=swap");
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
+  top: -12vh;
+  height: 80vh;
+  background-image: url(./images/about-BG.jpg);
+  background-repeat: none;
+  background-size: cover;
+  z-index: -10;
+   
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Candal", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 70px;
+  color: white;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-left: 180px;
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: white;
+}
+
+@media (max-width: 1080px) {
+  .left {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 950px) {
+  .left {
+    font-size: 1.4rem;
+  }
+  .descreptions {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 800px) {
+  .left {
+    font-size: 1.2rem;
+  }
+  .descreptions {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .left {
+    font-size: 1.1rem;
+  }
+  .descreptions {
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 590px) {
+  .left {
+    font-size: 1rem !important;
+    line-height: normal !important;
+  }
+
+  .descreptions {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+}
+
+@media (max-width: 565px) {
+  .container {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .left {
+    font-size: 1.3rem !important;
+    line-height: normal !important;
+    margin-top: 30px !important;
+  }
+
+  .descreptions {
+    margin-top: 30px !important;
+    font-size: 0.65rem !important;
+    width: fit-content !important;
+    margin-left: 30px !important;
+  }
+}
+
+@media (max-width: 535px) {
+  .descreptions {
+    margin-top: 30px !important;
+    font-size: 0.75rem !important;
+    width: fit-content !important;
+    margin-left: 10px !important;
+  }
+}
+ 

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Candal&family=Poppins:ital,wght@0,500;0,600;0,700;1,300&family=Roboto:wght@300;400&display=swap");
+.conatiner__ {
+  display: flex;
+
+  height: 700px;
+  width: 100%;
+}
+.left__ {
+  width: 50%;
+  background-color: rgb(71, 171, 252);
+  height: 103%;
+}
+
+.right__ {
+  width: 50%;
+  background-color: white;
+  height: 103%;
+}
+
+.content_title1 {
+  color: white;
+  font-size: 5rem;
+  font-family: "Candal";
+  margin-left: 90px;
+  margin-top: 10px;
+  line-height: 100%;
+}
+
+.descreption__ {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  margin-left: 90px;
+  color: white;
+}
+.Join_group_btn {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: none;
+  height: 50px;
+  width: 200px;
+  margin-left: 90px;
+  margin-top: 40px;
+  font-size: 1.2rem;
+}
+
+.content_title {
+  font-size: 5rem;
+  font-family: "Candal";
+  margin-left: 90px;
+  margin-top: 10px;
+  line-height: 100%;
+}
+.content_left {
+  padding-top: 90px;
+}
+.content_right {
+  padding-top: 90px;
+}
+.first__ {
+  margin-left: 90px;
+  margin-top: 40px;
+}
+.mini_tiltle {
+  font-size: 1.2rem;
+  color: rgb(71, 171, 252);;
+}
+.first_title {
+  font-size: 0.98rem;
+  margin-top: 10px;
+}
+@media (max-width: 1053px) {
+  .conatiner__ {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    height: fit-content !important;
+  }
+  .left__ {
+    width: 100%;
+    height: 400px;
+  }
+  .right__ {
+    width: 100%;
+     
+  }
+  .content_title1 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .content_title {
+    text-align: center;
+    font-size: 4rem;
+    margin-left: 0;
+  }
+  .descreption__ {
+    margin-left: 0;
+    text-align: center;
+    
+  }
+  .first__ {
+    margin-left: 0;
+    text-align: center;
+    /* margin-bottom: 10px !important; */
+  }
+  .mini_tiltle {
+    /* margin-left: 0; */
+    text-align: center;
+     
+  }
+}
+@media (max-width: 790px) {
+  .left__ {
+    height: 500px;
+  }
+  .content_left {
+    padding-top: 0;
+  }
+  .content_right {
+    padding-top: 0;
+  }
+  .Join_group_btn {
+    margin-left: 37%;
+  }
+}
+@media (max-width: 500px) {
+  .left__ {
+    width: 100%;
+    height: 500px;
+    padding-top: 40px;
+  }
+  .right__ {
+    width: 100%;
+    padding-top: 40px;
+  }
+  .content_title1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 0px;
+  }
+  .content_title {
+    text-align: center;
+    font-size: 4rem;
+    margin-left: 0px;
+  }
+  .descreption__ {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .first__ {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .mini_tiltle {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .Join_group_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -12%;
+  }
+  .first__{
+    margin-top: 18px;
+  }
+}

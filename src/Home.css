@@ -1,0 +1,71 @@
+.home-container{
+  background-color: #F5FBFF;
+}
+
+.main-heading-home{
+  font-size: 80px;
+  margin-top: 5rem;
+  text-align: center;
+  line-height: 80px;
+  font-family: 'Titillium Web';
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.subheading-home{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 200;
+}
+.container-grid-idea .box{
+  padding: 22px;
+  box-shadow: 2px 0px 14px -1px rgba(24, 22, 22, 0.281);
+  -webkit-box-shadow: 2px 0px 14px -1px rgba(24, 22, 22, 0.281);
+  -moz-box-shadow: 2px 0px 14px -1px rgba(24, 22, 22, 0.281);
+  border-radius: 5px;
+}
+
+.blue-button-grid {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.blue-button-grid button {
+  margin-top: -1rem;
+  padding:0.5rem 1rem;
+  background-color: #47ABFC;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  vertical-align: middle;
+}
+.blue-button-grid button a{
+  color: #ffffff;
+}
+.box{
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.grid-heading-home{
+  font-size: 25px;
+  margin: 1rem 0;
+}
+.grid-para-home{
+  margin-bottom: 2rem;
+}
+.grid-heading-home, .grid-para-home{
+  padding:0  1rem;
+}
+.wrapper-grid-home{
+ 
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, minmax(min-content, 22rem));
+  grid-template-rows: repeat(1, minmax(15rem, min-content));
+  grid-gap: 2rem;
+  padding: 5rem 2rem;
+  margin-bottom: 5rem;
+}

@@ -1,0 +1,155 @@
+.home{
+  background-color: black;
+  color: #ffffff;
+}
+.home .main-heading-home{
+  margin-top: 5rem;
+}
+.wrapper-grid-track {
+  padding: 3rem 2rem 0 2rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, minmax(min-content, 22rem));
+  grid-template-rows: repeat(1);
+  grid-gap: 5rem;
+}
+
+.container-grid-track .box {
+  box-shadow: 2px 0px 14px -1px rgba(24, 22, 22, 0.281);
+  -webkit-box-shadow: 2px 0px 14px -1px rgba(24, 22, 22, 0.281);
+  -moz-box-shadow: 2px 0px 14px -1px rgba(24, 22, 22, 0.281);
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: black;
+  justify-content: space-between;
+}
+
+.grid-heading-track {
+  font-size: 25px;
+  margin: 1rem 0;
+}
+
+
+.buttons  div{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.blue-button-track {
+  display: flex;
+  width: 150px;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  background-color: rgb(0, 123, 194);
+  border: none;
+  margin: 1rem 0;
+}
+.task{
+  background-color: black;
+  color: white;
+}
+.mytabs {
+  display: flex;
+  flex-wrap: wrap;
+  /* max-width: 800px; */
+  margin: 0px auto;
+  color: white;
+  margin: 6% 10%;
+}
+.mytabs input[type="radio"] {
+  display: none;
+}
+.mytabs label {
+  padding: 10px 20px;
+  background: #000000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0 0.5%;
+}
+
+.mytabs .tab {
+  width: 100%;
+  padding: 3% 5% 2% 5%;
+  background: rgb(0, 0, 0);
+  order: 1;
+  display: none;
+}
+.mytabs .tab h2 {
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: #ffffff;
+  color: #47ABFC;
+}
+
+.mytabs label:hover{
+  background-color: #ffffff;
+  color: #47ABFC;
+}
+
+.tsk-btn{
+  padding: 0.4rem 1rem;
+  background-color: #47ABFC;
+  width: 30%;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  vertical-align: middle;
+}
+.tsk-btn a{
+  color: black;
+  text-decoration: none;
+  color: white;
+}
+.label{
+  font-size: 1.2rem;
+  color: grey;
+}
+
+p{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.heading-task{
+  font-size: 80px;
+  padding-top: 5rem;
+  text-align: center;
+  /* line-height: 80px; */
+  font-family: 'Titillium Web';
+  text-transform: uppercase;
+  margin: 0rem;
+}
+.subheading-task{
+  font-size: 18px;
+  text-align: center;
+  font-weight: 200;
+}
+.p-task{
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#Azure{
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 567px) {
+  #Security{
+      margin: 0% 29% 2% 6%;
+  }
+  #Azure{
+      margin: 0% 29% 2% 6%;
+  }
+  #Data{
+      margin: 0% 29% 2% 6%;
+  }
+}
