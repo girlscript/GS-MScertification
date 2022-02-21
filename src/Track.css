@@ -1,8 +1,8 @@
-.home{
+.home {
   background-color: black;
   color: #ffffff;
 }
-.home .main-heading-home{
+.home .main-heading-home {
   margin-top: 5rem;
 }
 .wrapper-grid-track {
@@ -29,8 +29,7 @@
   margin: 1rem 0;
 }
 
-
-.buttons  div{
+.buttons div {
   display: flex;
   justify-content: center;
   margin-bottom: 0.5rem;
@@ -45,111 +44,106 @@
   border: none;
   margin: 1rem 0;
 }
-.task{
+.task {
   background-color: black;
   color: white;
 }
-.mytabs {
-  display: flex;
-  flex-wrap: wrap;
-  /* max-width: 800px; */
-  margin: 0px auto;
-  color: white;
-  margin: 6% 10%;
+
+.heading-task {
+  font-size: 80px;
+  padding-top: 5rem;
+  text-align: center;
+  /* line-height: 80px; */
+  font-family: "Titillium Web";
+  text-transform: uppercase;
+  margin: 0rem;
 }
-.mytabs input[type="radio"] {
-  display: none;
+.subheading-task {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 200;
 }
-.mytabs label {
+
+.tabContainer {
+  width: 87%;
+  margin: 3rem auto 0 auto;
+}
+
+.tabContainer .buttonContainer {
+  height: 15%;
+}
+.tabContainer .buttonContainer button {
   padding: 10px 20px;
   background: #000000;
   font-weight: bold;
   font-size: 1.2rem;
   margin: 0 0.5%;
+  color: grey;
+  border: 0;
 }
-
-.mytabs .tab {
-  width: 100%;
-  padding: 3% 5% 2% 5%;
-  background: rgb(0, 0, 0);
-  order: 1;
+.tabPanelFlex {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.tabContainer .buttonContainer button:hover {
+  background-color: white;
+  color: #47abfc;
+}
+.tabContainer .tabPanel {
+  background-color: black;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /* font-size: 22px; */
   display: none;
 }
-.mytabs .tab h2 {
-  font-size: 3em;
+
+.buttons div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
 }
 
-.mytabs input[type='radio']:checked + label + .tab {
-  display: block;
-}
-
-.mytabs input[type="radio"]:checked + label {
-  background: #ffffff;
-  color: #47ABFC;
-}
-
-.mytabs label:hover{
-  background-color: #ffffff;
-  color: #47ABFC;
-}
-
-.tsk-btn{
-  padding: 0.4rem 1rem;
-  background-color: #47ABFC;
+.tsk-btn {
+  padding: 0.4rem 0rem;
+  background-color: #47abfc;
   width: 30%;
-  height: 40px;
-  font-size: 15px;
+  height: 50px;
+  font-size: 1.2rem;
   border: none;
   vertical-align: middle;
+  margin-top: 2rem;
 }
-.tsk-btn a{
+.tsk-btn a {
   color: black;
   text-decoration: none;
   color: white;
 }
-.label{
-  font-size: 1.2rem;
-  color: grey;
-}
 
-p{
+p {
   font-size: 20px;
   line-height: 30px;
 }
 
-.heading-task{
-  font-size: 80px;
-  padding-top: 5rem;
-  text-align: center;
-  /* line-height: 80px; */
-  font-family: 'Titillium Web';
-  text-transform: uppercase;
-  margin: 0rem;
-}
-.subheading-task{
-  font-size: 18px;
-  text-align: center;
-  font-weight: 200;
-}
-.p-task{
+.p-task {
   display: block;
   margin-block-start: 0.5em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-}
-#Azure{
-  margin-left: 5%;
+  width: 90%;
 }
 
-@media screen and (max-width: 567px) {
-  #Security{
-      margin: 0% 29% 2% 6%;
-  }
-  #Azure{
-      margin: 0% 29% 2% 6%;
-  }
-  #Data{
-      margin: 0% 29% 2% 6%;
+.dumm {
+  width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+  .dumm{
+    padding-bottom: 2rem;
   }
 }
