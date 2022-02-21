@@ -32,7 +32,7 @@ function Contact1() {
             <h4 className="mini_tiltle">Call Us at</h4>
             <p className="numbers">
               <p className="first_title">
-                +91 9552809927 <br /> +91 9552809927{" "}
+                +91 95528 09927 <br /> +91 78885 72592{" "}
               </p>
             </p>
           </div>
