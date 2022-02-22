@@ -15,7 +15,7 @@ function Contact1() {
             ask anything you want.
           </h4>
           <div className="btn">
-            <button className="Join_group_btn">Join The Group</button>
+            <input type="button" className="Join_group_btn" onclick="location.href='https://t.me/+MgKROtPf989kYWU1';" value="Join Telegram Group" />
           </div>
         </div>
       </div>
