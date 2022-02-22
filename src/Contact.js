@@ -15,7 +15,7 @@ function Contact1() {
             ask anything you want.
           </h4>
           <div className="btn">
-            <button className="Join_group_btn" onClick="location.href='https://t.me/+MgKROtPf989kYWU1'">Join The Group</button>
+            <button className="Join_group_btn" onClick="location.href='https://t.me/+MgKROtPf989kYWU1'" type="button">Join The Group</button>
           </div>
         </div>
       </div>
