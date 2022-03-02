@@ -15,20 +15,9 @@ function Contact1() {
             ask anything you want.
           </h4>
           <div className="btn">
-    <button className="Join_group_btn"
-
-    type="button"
-
-    onClick={(e) => {
-
-      e.preventDefault();
-
-      window.location.href='https://t.me/+MgKROtPf989kYWU1';
-
-      }}
-
->Join the Group</button>
-
+            <button className="Join_group_btn">
+              <a href="https://t.me/+MgKROtPf989kYWU1" target=" ">
+            Join the Group</button>
           </div>
         </div>
       </div>
